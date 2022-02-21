@@ -1,0 +1,32 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td{margin: 0;padding: 0;}
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input{vertical-align: middle;}
+body{ background:#fff;font-size:12px; font-family:'微软雅黑'; color:#4d4d4d;}
+/*清浮动*/
+.clear:after { display: block; content: ' '; font-size: 0; height: 0; clear: both;}
+.clear { *zoom:1; }
+em,i{ font-style:normal;}
+a { text-decoration: none;}
+ul, ol, li { list-style: none;}
+img {vertical-align: middle; border: none;}
+
+.pd15{padding: 15px;}
+#KyoPage{width: 1000px; margin: 0 auto;}
+.Kheader{margin: 15px 0px; border: 1px solid orange;}
+.Kfooter{margin: 15px 0px; text-align: center; border: 1px solid darkorange;}
+
+.KyoBox{border: 1px solid orangered; padding: 15px;}
+.KyoBox_Title{font-size: 15px; line-height: 21px;}
+.KyoDome_Box{border: 1px solid deepskyblue; padding: 10px;}
+
+
+.Bimglis{width: 946px; height: 300px; overflow: hidden;}
+.Bimgs{display: none;}
+
+.FocusImg{width: 840px; height: 160px; margin: 10px auto; overflow: hidden; position: relative;}
+.Fimglist{width: 2310px; position: absolute;}
+.Fimgs{width: 200px; height: 150px; padding:5px; float: left;}
+.Fimgson{background: salmon;}
+
+.Kbuttons{width: 150px; margin: 15px auto;}
+.kbtclass{font-size: 13px; background: dodgerblue; color: white; padding: 5px 15px;}
